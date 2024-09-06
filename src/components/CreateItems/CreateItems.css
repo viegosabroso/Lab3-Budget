@@ -1,0 +1,47 @@
+
+.CreateItems{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+.ButtonsClose{
+    transform: rotate(45deg);
+    position: relative;
+    z-index: 1;
+    top: -110px;
+    left: 540px;
+    width: 40px;
+    height: 40px;
+    border: solid 1px #000;
+    padding: 0;
+    background-color: #f1f1f100;
+    margin: 0;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ButtonsClose{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.CreateItems-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}

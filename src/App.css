@@ -1,0 +1,64 @@
+.BudgetContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.BudgetContainer-hidden{
+    display: none;
+}
+.StatusContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.Status-hidden{
+    display: none;
+}
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+.ItemsForm-hidden{
+    display: none;
+}
+.ButtonItems-hidden{
+    display: none;
+}
+
+.ButtonItems{
+    position: sticky;
+    top: 650px;
+    left: 90%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ItemsForm {
+    position: absolute;
+    margin: 20px;
+    width: 1500px;
+    top: 264px;
+    left: -22px;
+}

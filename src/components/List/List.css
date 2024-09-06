@@ -1,0 +1,22 @@
+.IconsImgs{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+
+.Items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.iconsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    
+}

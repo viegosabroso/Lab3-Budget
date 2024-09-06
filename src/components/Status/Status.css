@@ -1,0 +1,14 @@
+.ProgressBar{
+
+    width: 200px;
+    height: 200px;
+}
+.Status-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.CircularProgressbar-text{
+    font-size: 1.5rem;
+}
